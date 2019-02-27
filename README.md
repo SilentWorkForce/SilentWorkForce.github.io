@@ -1,2 +1,3 @@
-This is my Portfolio 
-I am currenlty in progess, I am enrolled at the Portland Tech academy.
+This is my Portfolio in progess.
+I am enrolled at the Portland Tech academy.
+Jr Software Developer and Programmer.
