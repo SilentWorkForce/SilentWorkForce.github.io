@@ -3,7 +3,7 @@ layout: post
 title: Christopher's Portfolio
 ---
 
-This is the beginning of my first
+This is the beginning of my first Portfolio will update as I progress through the courses.
 
 ### Why I chose this/About Myself.
 
@@ -31,12 +31,13 @@ In addition to the above:
 
 [Head to the readme](https://github.com/silentworkforce/silentworkforce.github.io to learn more.
 
-### Browser support
+### Contact me
 
-Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+(https://www.linkedin.com/in/christopher-stam-6512a53b/)
+(https://twitter.com/SilentWorkForce)
 
 ### Download
 
-Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/SilentWorkForce/SilentWorkForce.github.io">GitHub repository</a> for downloads, bug reports, and features requests.
+My Portfolio is developed on and hosted with GitHub. Head to the <a href="https://github.com/SilentWorkForce/SilentWorkForce.github.io">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
