@@ -8,7 +8,7 @@ This is the beginning of my first
 ### Why I chose this/About Myself.
 
 I was born and raised on a farm in idaho, My mother got us our first PC when I was about 12 years old, it wasnt until then 
-that I realized I had this fondness for technology, We eventually moved to Oregon and My Stepfather guided me through building 
+that I realized I had this fondness for technology, We eventually moved to Oregon and my Stepfather guided me through building 
 my first custom PC. Back then Nvidia had TNT cards and VooDoo still exsisted not like Geforce we see today. I did eventually step away 
 from that world mostly due to the rising costs and I was just 18 on my own and could not afford PC's for awhile. I went to college 
 for a degree in automotive technology, I realized later that my true calling has always been here in this industry.
