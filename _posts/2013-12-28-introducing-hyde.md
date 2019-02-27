@@ -29,7 +29,7 @@ In addition to the above:
 * Javascript
 * Jekyll
 
-[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
+[Head to the readme](https://github.com/silentworkforce/silentworkforce.github.io to learn more.
 
 ### Browser support
 
