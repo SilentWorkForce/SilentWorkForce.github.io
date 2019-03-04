@@ -1,7 +1,7 @@
 /*!
     Title: Dev Portfolio Template
     Version: 1.2.1
-    Last Change: 08/27/2017
+    Last Change: 03/04/2019
     Author: Christopher Stam
     Repo: https://github.com/SilentWorkForce/SilentWorkForce.github.io/
     Issues: https://github.com/SilentWorkForce/SilentWorkForce.github.io/
