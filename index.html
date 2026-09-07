@@ -39,7 +39,7 @@
             <h2>Field Service Technician | Technical Support | Hardware & Systems</h2>
             <div class="lead-actions">
                 <a class="btn-modern primary" href="#experience">View Experience</a>
-                <a class="btn-modern secondary" href="mailto:cstam187@gmail.com">Contact Me</a>
+                <a class="btn-modern secondary" href="#contact">Contact Me</a>
                 <a class="btn-modern secondary" href="https://www.linkedin.com/in/christopher-stam/" target="_blank" rel="noopener">LinkedIn</a>
             </div>
         </div>
@@ -177,6 +177,27 @@
         </ul>
     </div>
 
+    <section id="contact">
+        <div class="container">
+            <h2 class="heading">Get In Touch</h2>
+            <p class="contact-intro">Interested in discussing a position or technical opportunity? Feel free to reach out.</p>
+            <div class="contact-card">
+                <div class="contact-email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div>
+                        <span>Email</span>
+                        <strong id="contact-email">cstam187@gmail.com</strong>
+                    </div>
+                </div>
+                <div class="contact-actions">
+                    <button class="contact-btn primary" type="button" onclick="copyEmail(this)">Copy Email</button>
+                    <a class="contact-btn" href="https://www.linkedin.com/in/christopher-stam/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="contact-btn" href="https://github.com/SilentWorkForce/" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row">
@@ -194,6 +215,35 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script>
+        function copyEmail(button) {
+            var email = document.getElementById('contact-email').textContent;
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(email).then(function () {
+                    showCopied(button);
+                });
+            } else {
+                var textArea = document.createElement('textarea');
+                textArea.value = email;
+                textArea.style.position = 'fixed';
+                textArea.style.opacity = '0';
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                showCopied(button);
+            }
+        }
+        function showCopied(button) {
+            var original = button.textContent;
+            button.textContent = 'Email Copied!';
+            button.classList.add('copied');
+            setTimeout(function () {
+                button.textContent = original;
+                button.classList.remove('copied');
+            }, 1800);
+        }
+    </script>
 </body>
 
 </html>
